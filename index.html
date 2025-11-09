@@ -60,5 +60,17 @@
         <p>A simple and user-friendly app that users can check things done.</p>
       </div>
      </section>
+
+     <!-- Contact Section -->
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm" onsubmit="sendMessage(event)">
+          <input id="name" type="text" placeholder="Your Name">
+          <input id="email" type="text" placeholder="Your Email">
+          <textarea id="message" placeholder="Your Message"></textarea>
+          <button type="submit">Send</button>
+        </form>
+        <p id="response"></p>
+      </section>
 </body>
 </html>
